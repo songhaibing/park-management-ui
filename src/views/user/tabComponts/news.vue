@@ -1,7 +1,5 @@
 
-<style scoped>
-  @import "news.css";
-</style>
+
 
 <template>
   <div style="overflow: hidden;">
@@ -75,5 +73,28 @@
     }
   }
 </script>
+
+
+<style scoped>
+  .demo-upload-list {
+    position: relative;
+    overflow: hidden;
+  }
+  .demo-upload-list-cover{
+    position: absolute;
+    left:20pt;
+    top:132pt;
+    font-family: PingFangSC-Medium;
+    font-size: 16pt;
+    line-height:24pt;
+    color: aliceblue;
+    background: linear-gradient(top, rgba( 27 27 27, 0.78), rgba(255 255 255, 0.0));
+  }
+  img {
+    width: 100%;
+    height: 300px;
+  }
+
+</style>
 
 

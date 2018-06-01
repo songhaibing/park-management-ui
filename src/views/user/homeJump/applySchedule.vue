@@ -1,6 +1,4 @@
-<style scoped>
-  @import "applySchedule.css";
-</style>
+
 
 <template>
   <div class="container">
@@ -95,5 +93,40 @@
     },
   }
 </script>
+
+<style scoped>
+  .container{
+    background-color: rgb(248, 247, 247);
+    height: 100%;
+  }
+  .title{
+    font-family: PingFangSC-Medium;
+    font-size: 40px;
+    font-weight: 600
+  }
+  .connection{
+    line-height: 30px;
+    margin-left: 10px;
+    color: rgb(153 153 153);
+  }
+  .inquire-button{
+    padding: 25px;
+  }
+  .search {
+    padding: 10px;
+  }
+  .text{
+    text-align: center;
+    size: 12px;
+    color:rgb(153 153 153)
+  }
+  .footer{
+    position:absolute;
+    bottom:20px;
+    width: 100%;
+    text-align: center
+  }
+
+</style>
 
 

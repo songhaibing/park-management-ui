@@ -1,6 +1,4 @@
-<style scoped>
-  @import "ApplySucceed.css";
-</style>
+
 
 
 <template>
@@ -48,5 +46,20 @@
     }
   }
 </script>
+
+<style scoped>
+  .connection{
+    text-align: center;
+    margin-top: 147px;
+  }
+  .connection-font{
+    margin-top: 35px;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: rgb(153 153 153);
+
+  }
+
+</style>
 
 

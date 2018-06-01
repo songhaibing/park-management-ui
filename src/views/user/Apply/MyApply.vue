@@ -1,6 +1,3 @@
-<style scoped>
-  @import "MyApply.css";
-</style>
 
 <template>
   <div class="container">
@@ -53,5 +50,26 @@
     }
   }
 </script>
+
+<style scoped>
+  .MyApply-title{
+    font-family: PingFangSC-Medium;
+    font-size: 18pt;
+    color: rgb(39 38 54)
+  }
+  .MyApply-text{
+    float: right;
+    font-family: PingFangSC-Regular;
+    font-size: 12pt;
+    color: rgb(205 196 196)
+  }
+  .MyApply-font{
+    font-family: PingFangSC-Regular;
+    font-size: 12pt;
+    color: rgb(205 196 196)
+  }
+
+</style>
+
 
 

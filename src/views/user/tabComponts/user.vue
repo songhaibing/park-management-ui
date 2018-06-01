@@ -1,6 +1,4 @@
-<style scoped>
-  @import "user.css";
-</style>
+
 
 <template>
   <div class="container" >
@@ -50,5 +48,26 @@
     }
   }
 </script>
+
+<style scoped>
+  .image-text{
+    font-size: 22px;
+    background-color: #fff;
+    line-height: 80px;
+    padding-left: 20px
+  }
+  .apply{
+    font-family:PingFangSC-Regular;
+    font-size: 14pt;
+    color: rgb(68 68 68)
+  }
+  .exit-button{
+    position:absolute;
+    bottom:55px;
+    width: 100%;
+    text-align: center
+  }
+
+</style>
 
 
